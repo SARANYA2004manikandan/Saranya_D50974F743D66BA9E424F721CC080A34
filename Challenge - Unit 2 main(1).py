@@ -18,7 +18,7 @@ class BankAccount:
       print("Withdrew: ₹{}.New balance: ₹{}". format(amount,self.__account_balance))
 
     else:
-      print("Invalid withdrawal amount or sufficient balance.")
+      print("Invalid withdrawal amount or insufficient balance.")
 
   def display_balance(self):
     print("Account balance for {}(Account #{}): ₹{}".format(self.__account_holder_name,
